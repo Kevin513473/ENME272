@@ -1,0 +1,3 @@
+Remember to fetch, then pull...
+
+Then when you have changed files, commit (with summary) and then push!
