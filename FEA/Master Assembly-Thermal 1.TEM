@@ -1,0 +1,90 @@
+
+****************************************************************
+****************************************************************
+**                                                            **
+**                                                            **
+**  SSS  III  M    M  U  U  L     A  TTTTT  III    OO   N   N **
+** S      I   MM  MM  U  U  L    A A   T     I    O  O  NN  N **
+**  SS    I   M MM M  U  U  L    AAA   T     I    O  O  N N N **
+**    S   I   M    M  U  U  L    A A   T     I    O  O  N  NN **
+** SSS   III  M    M   UU   LLL  A A   T    III    OO   N   N **
+**                                                            **
+**                                                            **
+**       SOLIDWORKS Simulation Heat Transfer 2025 - SP4       **
+**                 Simulation Premium Package                 **
+**           Distributed By: SOLIDWORKS Corporation           **
+**               21255 Burbank Blvd Suite 400                 **
+**               Woodland Hills, California 91367             **
+**               Telephone Number (774)556-3100               **
+**         Copyright 1988-2017 SOLIDWORKS Corporation         **
+**                                                            **
+****************************************************************
+****************************************************************
+
+
+ SYSTEM OF UNITS:
+ International System of Units, SI, is used for all input/output data.
+ Common Quantities:
+ Length:meter, Mass:kilogram, Time:second, Temperature:kelvin
+ Force:newton, Pressure also stress:pascal, Energy:joule, Power:watt
+
+ NUMBER OF PHYSICAL CORES USED TO RUN SIMULATION:  4
+
+ Total number of nodes                      =    145638
+ Total number of elements                   =     87377
+
+ First order elements
+ Using PCG Solver
+
+ Type of analysis      :     Linear Steady State
+
+
+Nodal temperature results at time step =     1     (Time =     0.00000    )
+--------------------------------------------------------------------------------
+
+    Node   Temperature      Node   Temperature      Node   Temperature      Node   Temperature
+ ================================================================================================
+
+
+   Tmax  =  297.15516    
+   Tmin  =  259.91970    
+
+
+
+Nodal Gradient and Heat Flux at time step =     1  (Time =  0.0000000    )
+--------------------------------------------------------------------------------
+
+    Node  Gradient_X      Gradient_Y      Gradient_Z      Heat Flux_X     Heat Flux_Y     Heat Flux_Z
+ ==========================================================================================================
+
+ Minimum/Maximum Temperature Gradient and Heat Flux
+
+ Node          10865            6464            1751          135351          145358          143262
+ Min.     -1707.7084      -1202.7751      -341.30919      -17702.372      -13413.336      -14620.447    
+ Node           6464            1774            1788          131113          145562          131108
+ Max.      3308.3536       319.19658       1556.5195       24181.463       9180.9306       21039.371    
+
+
+Nodal Heat Balance at time step =     1    (Time =  0.0000000    )
+--------------------------------------------------------------------------------
+    Node     Applied      Conduction      Convection       Radiation        Reaction   Sys. Internal         Balance
+ Input     0.0000000      8.38266246E-09   0.0000000       0.0000000      4.89125550E-09   0.0000000      4.11395778E-09
+ Output    0.0000000     -8.23557779E-09   0.0000000       0.0000000     -4.26870468E-09   0.0000000     -3.34432229E-09
+
+ Heating at nodes with prescribed temp.   = 6.22550816E-10
+ System heat balance=                     = 7.69635490E-10
+
+Maximum Memory Used in MegaBytes  (MAXMB)  =        67
+
+
+Solution Time log
+--------------------------------------------------------------------------------
+  Input phase                                     =         21.0
+  Assemblage of matrices                          =          2.6
+  Preconditioning of conductivity matrix          =          1.5
+  Solution of equations                           =          0.2
+  Miscellaneous calculations                      =          3.7
+  Total Solution Time                             =         29.0
+
+Maximum Memory Used in MegaBytes  (MAXMB)  =        67
+
